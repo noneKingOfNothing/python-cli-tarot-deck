@@ -1,0 +1,1 @@
+This file will hold interpretations for each card in case the user doesn't have access to the internet
