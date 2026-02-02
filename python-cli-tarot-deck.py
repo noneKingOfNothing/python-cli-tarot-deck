@@ -3,7 +3,7 @@
 
 #    credit 'astrology.com/article/order-of-tarot-cards' for the tarot card list
 
-#grab the library to generate random numbers and linecache to pull the proper line
+# grab the library to generate random numbers and linecache to pull the proper line
 import random , linecache
 
 '''make a function that uses a random number to reference one of the lines
@@ -19,7 +19,7 @@ def draw_cards(number_to_draw):
         line = linecache.getline('./cardnames.txt', i)
         print(line)
 
-#ask for the number of cards to draw and fire the function to pull the right number:
+# ask for the number of cards to draw and fire the function to pull the right number:
 number_to_draw = input("How many cards? Use a numeral.")
 draw_cards(number_to_draw)
 
