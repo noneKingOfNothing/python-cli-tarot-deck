@@ -1,0 +1,15 @@
+# general design flow for python cli tarot deck
+
+
+
+# ask for number of cards, save that as a variable
+# create a list variable to save the list of cards pulled
+
+# Function 1 (Draw Cards)
+# roll random numbers and check if they have been pulled. If not, refer to the file and the line (the card), print it out, and add it to the list variable. Do this the number of times equal to the request variable
+
+# Function 2 (Interpretation)
+# Ask if the the user wants an interpretation. If no, exit the program.
+# Otherwise, refer to the list variable that keeps track of the cards and combine the entries into a string
+# Send the string to a local LLM for an interpretation. Include the tarot interpretation prompt in the query.
+# Print the response
